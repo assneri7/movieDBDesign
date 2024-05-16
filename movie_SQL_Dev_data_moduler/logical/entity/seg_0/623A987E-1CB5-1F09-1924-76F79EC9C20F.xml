@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="623A987E-1CB5-1F09-1924-76F79EC9C20F" name="Movie">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:08:04 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MovieID" id="316F3F3E-E773-FBE5-715D-9C46B40BF6F9">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:08:28 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="3587E382-9122-1324-F44E-3536E99441D1">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:08:54 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GenreID" id="86A2B4C9-0F60-149D-75C9-F5F6DA719CE9">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:09:08 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DirectorID" id="A0E1E2DF-3BC2-E16E-A8A4-6A80F7860F9B">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:09:35 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ReleaseYera" id="5957C0F8-8A1B-D5F9-199C-4DCD3E7AFE08">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:09:52 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="runtime" id="C176B3EB-6259-94D6-F968-382C73508D49">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:10:08 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Raiting" id="248B3EBF-2C6E-8E51-8801-5BE7A0B93E9A">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:10:55 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LanguageID" id="652CBF30-A985-1C3B-FEB6-FEFD8B678015">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:41:40 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="watched" id="A2FA3E98-DA89-7F28-6324-CBE87BDA1909">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:00:10 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RatingID" id="7A044413-7036-4CCD-3A01-AFB1AAF50FCF">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:06:30 UTC</createdTime>
+<generatorID>AD7DFBB5-D5B4-B372-3BE0-1159AE8C8971</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<referedAttribute>34209784-B688-6812-0D02-4D1B8A8E7BB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LanguageID1" id="8AB40FEA-EFB3-94D2-30D2-9407682E354C">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:06:48 UTC</createdTime>
+<generatorID>4758AFAA-A3A1-11CB-1AAB-2AB94BB80C03</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<referedAttribute>79128186-06A4-A105-958A-350D44301644</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="870049A2-752F-2383-77E5-3346F06E8DD7" name="Movie PK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:08:45 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>316F3F3E-E773-FBE5-715D-9C46B40BF6F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

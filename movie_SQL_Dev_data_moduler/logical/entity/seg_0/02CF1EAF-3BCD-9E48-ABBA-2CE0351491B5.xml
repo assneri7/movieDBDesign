@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02CF1EAF-3BCD-9E48-ABBA-2CE0351491B5" name="Actor">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ActorID" id="66C06EA3-202A-E600-BFEB-7D1512333520">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="C844D390-A4A3-D97E-A328-E8632249FF81">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="D7E55015-0FF6-5798-741E-1333A6E5DCD7">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nationality" id="0CF5000D-E6B2-B83D-5B61-B5F89F60BD30">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BirthDate" id="CA66AAAB-6C57-E4FF-8BDA-C452355E7A42">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5189D91-431E-5BF9-5242-BB8FAE46DBE3" name="Actor PK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 09:43:22 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<engineerTo>
+<item key="6AB81D8C-FB28-9015-5875-538A817133E9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66C06EA3-202A-E600-BFEB-7D1512333520</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

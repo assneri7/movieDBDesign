@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCABAD82-5D40-3A29-F797-9A9164A4D154" name="Relation_4">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genere_GerreID" id="7AAD76D6-0ED8-1D69-4AF1-D0D69DB8BFCF">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B598862F-E322-27EE-433F-6F223C81FD9C" referredColumn="5886841F-2B95-E78D-9BAE-29FA98DF2E9C"/>
+</associations>
+</Column>
+<Column name="Movie_MovieID" id="87FA43EF-21AB-E353-B22C-BA74F46855CD">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B031A4DB-11FC-0DCD-CE0B-4C8A50546C5D" referredColumn="574E9EAC-FA6D-22BD-41DA-2F3E5F5E7A4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="912A4023-96D5-E367-8E50-250BC5814806" name="Relation_4_PK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAD76D6-0ED8-1D69-4AF1-D0D69DB8BFCF"/>
+<colUsage columnID="87FA43EF-21AB-E353-B22C-BA74F46855CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE300DC5-EB97-3950-5C5E-C9DD51C0D501" name="Relation_4_Genere_FK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>5DFB77FA-256D-3A1C-EA35-BAAB56185943</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAD76D6-0ED8-1D69-4AF1-D0D69DB8BFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C35675EB-F960-E360-F317-D1D2D4D91D4D" name="Relation_4_Movie_FK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>5DFB77FA-256D-3A1C-EA35-BAAB56185943</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87FA43EF-21AB-E353-B22C-BA74F46855CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

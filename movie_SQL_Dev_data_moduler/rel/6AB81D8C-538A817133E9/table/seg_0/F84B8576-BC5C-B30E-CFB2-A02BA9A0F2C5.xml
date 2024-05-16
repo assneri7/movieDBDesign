@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F84B8576-BC5C-B30E-CFB2-A02BA9A0F2C5" name="Actor">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>02CF1EAF-3BCD-9E48-ABBA-2CE0351491B5</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ActorID" id="90A0710A-9B8F-2573-0CAA-F8E4132F7D23">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>66C06EA3-202A-E600-BFEB-7D1512333520</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="AFBD7FA3-9FD4-2897-9001-C452506483D2">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>C844D390-A4A3-D97E-A328-E8632249FF81</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="B19B74D1-6361-0713-C158-25ED54C0B5D1">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>D7E55015-0FF6-5798-741E-1333A6E5DCD7</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nationality" id="1A8C2D85-A84C-46B7-831C-6CFBCC4BB4BC">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>0CF5000D-E6B2-B83D-5B61-B5F89F60BD30</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BirthDate" id="039F00EB-DA79-0541-3A91-AC476FA2F480">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>CA66AAAB-6C57-E4FF-8BDA-C452355E7A42</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06E9303F-451D-E4A0-CD9D-EF951A3C4DEC" name="Actor_PK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>A5189D91-431E-5BF9-5242-BB8FAE46DBE3</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A0710A-9B8F-2573-0CAA-F8E4132F7D23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="movie_SQL_Dev_data_moduler" id="0AC76169-2323-580A-C63A-0924D3D339BE" version="3.5">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 08:56:09 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0AC76169-2323-580A-C63A-0924D3D339BE</designId>
+</OSDM_Design>

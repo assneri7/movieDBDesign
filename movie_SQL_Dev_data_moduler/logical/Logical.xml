@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4AE8E1B1-E84B-211B-F08E-0E39E0EA98FD" mainViewID="4993628E-B96D-E9A6-119B-82A360A41292">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 08:56:09 UTC</createdTime>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

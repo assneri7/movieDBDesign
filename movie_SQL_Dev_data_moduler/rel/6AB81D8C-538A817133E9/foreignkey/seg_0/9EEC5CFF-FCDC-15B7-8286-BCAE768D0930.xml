@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EEC5CFF-FCDC-15B7-8286-BCAE768D0930" containerWithKeyObject="457ACEA9-8D5E-9323-2F34-3F8F6167BA15" localFKIndex="4BB715D8-D403-4235-A331-1A66491AE121" name="Movie_Language_FK">
+<createdBy>assne</createdBy>
+<createdTime>2024-05-16 10:13:41 UTC</createdTime>
+<generatorID>4758AFAA-A3A1-11CB-1AAB-2AB94BB80C03</generatorID>
+<ownerDesignName>movie_SQL_Dev_data_moduler</ownerDesignName>
+<referredTableLongName>Language</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9786C0E-DAEE-F708-F3A9-660875B6E996</referredTableID>
+<keyObject>A46CEEFE-DDA7-A4B5-0875-5FB9C12A3962</keyObject>
+<referredKeyID>A46CEEFE-DDA7-A4B5-0875-5FB9C12A3962</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LanguageID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
